@@ -1,9 +1,10 @@
 # synergy-windows-switch-usb
 AutoIt Script - starts Synergy client or server mode (as service) based on if specific USB device is connected
 
+Check my related autoswitch script for Linux: https://github.com/firedo/synergy-autoswitch
 
 Quick Tutorial:
-1. Download and Install [AutoIt & Editor](https://www.autoitscript.com/site/autoit-script-editor/downloads/)
+1. Download and Install [AutoIt & Editor](https://www.autoitscript.com/site/autoit/downloads/)
 1. Clone this repository to your computer
 1. Edit the "Synergy-Switch-based-on-USB.au3" file in SciTE:
   1. Get the Synergy client & server commands by switching between Synergy client and server mode with the Synergy application (press Apply).
