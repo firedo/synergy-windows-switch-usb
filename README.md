@@ -6,6 +6,7 @@ Check my related autoswitch script for Linux: https://github.com/firedo/synergy-
 Quick Tutorial:
 1. Download and Install [AutoIt & Editor](https://www.autoitscript.com/site/autoit/downloads/)
 1. Clone this repository to your computer
+1. Open Synergy and Save the configuration (File menu). Then select the "Use existing configuration" and choose the just saved 'sgc' file.
 1. Edit the "Synergy-Switch-based-on-USB.au3" file in SciTE:
   1. Get the Synergy client & server commands by switching between Synergy client and server mode with the Synergy application (press Apply).
   1. Press Win+R and run 'regedit', browse to "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Synergy" and copy the "Command" registry value to the SynergyCommand(Client/Server) variables (press F5 to refresh the view)
